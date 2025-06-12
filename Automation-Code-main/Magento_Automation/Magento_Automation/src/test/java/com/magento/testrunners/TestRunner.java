@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "src/test/resources/featurefiles", 
 					glue = "com.magento.stepdefinitions"
-					//tags = "@login"
+					tags = "@login"
 					)
 public class TestRunner {
 }
